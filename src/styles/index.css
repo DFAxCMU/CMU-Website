@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,900');
+
+html, body {
+    min-height: 100%;
+}
+
+div {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+img {
+    margin: 0;
+}
+
+.index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero {
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/dfahome2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroLogo {
+    background-image: url('../images/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    width: 600px;
+    height: 600px;
+    margin: 48px;
+}
+
+.section {
+    max-width: 720px;
+    margin-top: 32px;
+    padding: 8px
+}
+
+.sectionTitle {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.horLine {
+    flex: 1;
+    margin: 8px;
+    height: 8px;
+    min-width: 300px;
+    background-image: url('../images/orangeline.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 48px;
+}
+
+.aboutQuestion {
+    margin-top: 16px;
+    margin-left: 32px;
+}
+
+.aboutTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    font-size: 32px;
+    margin-bottom: 0;
+}
+
+.questionMark {
+    height: 48px;
+    margin-left: 16px;
+}
+
+.aboutContent {
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+    justify-content: stretch;
+}
+
+.vertLine {
+    min-width: 8px;
+    max-width: 8px;
+    margin-left: 32px;
+    background-repeat: no-repeat;
+    background-size: 75% 100%;
+    flex: 1;
+}
+
+.aboutText {
+    margin-left: 32px;
+}
+
+.membersContainer {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8px;
+}
+
+.memberPicture {
+    width: 200px;
+    height: 200px;
+    border-radius: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 8px;
+    background-color: grey;
+}
+
+.memberName {
+    margin-top: 8px;
+    font-weight: 600;
+}
+
+.project {
+    margin-left: 24px;
+    margin-bottom: 16px;
+    margin-top: 8px;
+}
+
+.projectName {
+    color: #f58042;
+}
+
+.projectDesc {
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
