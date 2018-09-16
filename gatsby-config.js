@@ -12,5 +12,4 @@ module.exports = {
         },
         `gatsby-transformer-csv`,
     ],
-    pathPrefix: `/CMU-Website`,
 };
