@@ -17,9 +17,6 @@ class Mission extends React.Component {
             <AboutQuestion title="Why do we do it">
                 We believe that CMU students are some of the brightest and most creative makers in the world. Our goal is to channel this passion and ability to attack a variety of social impact problems at the local and national level.
             </AboutQuestion>
-            <AboutQuestion title="How do I get involved">
-                Contact us to join a team!
-            </AboutQuestion>
         </Section>
     }
 }

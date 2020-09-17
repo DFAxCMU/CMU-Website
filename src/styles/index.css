@@ -18,7 +18,7 @@ img {
 }
 .hero {
     margin: 0;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     background-image: url('../images/dfahome2.jpg');
     background-size: cover;

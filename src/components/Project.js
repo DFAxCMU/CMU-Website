@@ -8,7 +8,10 @@ class Project extends React.Component {
                 { this.props.data.description}
             </div>
             <span className="projectTeam">
-                <b>Team:</b> { JSON.stringify(this.props.data.team).replace(/['"]+/g, '') }
+                <b>{ "Contact: " }</b>
+                <a href={ this.props.data.contact_email }>
+                    { this.props.data.contact_email }
+                </a>
             </span>
         </div>
     }

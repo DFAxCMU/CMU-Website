@@ -11,6 +11,7 @@ import vertLine from '../images/orange-vertline.png'
 import Mission from '../components/Mission.js';
 import ProjectList from '../components/ProjectList.js';
 import MemberList from '../components/MemberList.js';
+import ContactUs from '../components/ContactUs.js'
 
 class IndexPage extends React.Component{
     constructor(props) {
@@ -24,16 +25,16 @@ class IndexPage extends React.Component{
                 />
             </div>
 
+            <ContactUs />
+
             <Mission />
 
             <ProjectList 
                 data={ this.props.data.projects }
             />
 
-            <MemberList 
-                data={ this.props.data.members } 
-                images={ this.props.data.memberImages }
-            />
+            <ContactUs />
+
         </div>
     }
 }
